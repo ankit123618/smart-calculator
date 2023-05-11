@@ -1,6 +1,6 @@
 responses=[
-"welcome to the smart calculator",
-"i was made by ankit, so you can call me ankit's calculator",
+"hello, i am smart convo, i'm your assistant.",
+"right now, i can only do some caculations. my author shri. ankit sharma developing me."
 "thanks",
 "sorry, this is beyond my ability"]
 def extract_numbers_from_text(text):
@@ -39,6 +39,11 @@ def myname():
     print(responses[1])
 def sorry():
     print(responses[3])
-operations={"PLUS":add,"ADD":add,"SUM":add,"ADDITION":add,"MINUS":sub,"SUBSTRACTION":sub,"DIFFERENCE":sub,"DIFFERENCES":sub,"MULTIPLY":multiply,"MULTIPLICATION":multiply,"PRODUCT":multiply,"DIVISION":division,"DIVIDE":division,"LCM":lcm,"HCF":hcf}
+operations={
+    "PLUS":add,"+":add, "ADD":add,"SUM":add,"ADDITION":add,
+    "MINUS":sub, "-":sub, "SUBSTRACTION":sub,"DIFFERENCE":sub,"DIFFERENCES":sub,
+    "MULTIPLY":multiply,"MULTIPLICATION":multiply,"PRODUCT":multiply,"*":multiply,
+    "DIVISION":division,"DIVIDE":division,"/":division,
+    "LCM":lcm,"HCF":hcf}
 commands={"NAME":myname,"END":end,"EXIT":end,"CLOSE":end}
 
