@@ -1,4 +1,8 @@
-responses=["welcome to the smart calculator","my name is ankit","thanks","sorry, this is beyond my ability"]
+responses=[
+"welcome to the smart calculator",
+"i was made by ankit, so you can call me ankit's calculator",
+"thanks",
+"sorry, this is beyond my ability"]
 def extract_numbers_from_text(text):
     l=[]
     for t in text.split(" "):
