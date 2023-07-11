@@ -1,6 +1,6 @@
 responses=[
 "hello, i am smart convo, i'm your assistant.",
-"right now, i can only do some caculations. my author shri. ankit sharma developing me."
+"right now, i can only do some caculations. my author shri. ankit sharma developing me.",
 "thanks",
 "sorry, this is beyond my ability"]
 def extract_numbers_from_text(text):
